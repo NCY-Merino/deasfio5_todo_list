@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 5 | Todo List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+<h1>Todo List</h1>
+<hr>
+    <div class="contenedor-input">
+        <input type="text" name="nueva-tarea" id="nueva-tarea" placeholder="Nueva Tarea">
+        <button onclick="agregar()">Agregar</button>
+    </div>
+    
+    <div class="informacion">
+        <div class="contador">
+            <p>Total: <span id="total"></span><br>
+                Realizadas: <span id="realizadas"></span></p>
+        </div>
+
+        <table id="tabla-tareas">
+            <tr>
+                <th style="width:43px">ID</th>
+                <th>Tarea</th>
+                <th style="width:88px">Completado</th>
+                <th style="width:46px">Borrar</th>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+    <script src="./assets/js/script.js"></script>    
+</body>
+</html>
