@@ -95,5 +95,4 @@ function contar() {
 
     totalSpan.innerText = total;
     realizadasSpan.innerText = realizadas;
-    console.error('TAREAS',tareas);
 }
